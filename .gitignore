@@ -54,7 +54,7 @@ artifacts/
 *.pdb
 *.pgc
 *.pgd
-//*.rsp
+#*.rsp
 *.sbr
 *.tlb
 *.tli
@@ -251,9 +251,9 @@ paket-files/
 .idea/
 *.sln.iml
 
-**/UnitySample/**/Library
-**/UnitySample/**/Temp
-**/UnitySample/**/build
-**/UnitySample/**/*.csproj
-**/UnitySample/**/*.sln
+**/HoloLens/**/Library
+**/HoloLens/**/Temp
+**/HoloLens/**/build
+**/HoloLens/**/*.csproj
+**/HoloLens/**/*.sln
 

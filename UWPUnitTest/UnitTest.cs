@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestPlatform.UnitTestFramework;
+using SimplePlugin;
 
 namespace UWPUnitTest
 {
@@ -8,7 +9,7 @@ namespace UWPUnitTest
         [TestMethod]
         public void TestMethod()
         {
-            Assert.AreEqual("Hello", Plugin.Plugin.SayHello());
+            Assert.AreEqual("Hello", Plugin.SayHello());
         }
     }
 }
